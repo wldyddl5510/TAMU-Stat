@@ -1,0 +1,32 @@
+[
+    {
+        "file": "C:/Users/wldyd/Desktop/tamu/classes/stat600/hw6group-team-5/src/LRMultiClass.cpp",
+        "file_last_write": 1636088926.0,
+        "definitions": [
+            {
+                "usr": "c:@F@LRMultiClass_c#&1I#S0_#S0_#I#d#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "LRMultiClass_c(const int &, const int &, const int &, int, double, double)",
+                "file": "C:/Users/wldyd/Desktop/tamu/classes/stat600/hw6group-team-5/src/LRMultiClass.cpp",
+                "line": 19,
+                "column": 12
+            }
+        ]
+    },
+    {
+        "file": "C:/Users/wldyd/Desktop/tamu/classes/stat600/hw6group-team-5/src/kmeans.cpp",
+        "file_last_write": 1636088939.0,
+        "definitions": [
+            {
+                "usr": "c:@F@MyKmeans_c#&1I#I#S0_#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "MyKmeans_c(const int &, int, const int &, int)",
+                "file": "C:/Users/wldyd/Desktop/tamu/classes/stat600/hw6group-team-5/src/kmeans.cpp",
+                "line": 18,
+                "column": 12
+            }
+        ]
+    }
+]

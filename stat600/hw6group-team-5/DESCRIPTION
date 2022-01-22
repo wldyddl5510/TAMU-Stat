@@ -1,0 +1,13 @@
+Package: GroupHW
+Type: Package
+Title: Kmeans and multi LR algorithms
+Version: 1.0
+Date: 2021-11-1
+Author: Jiyoung Park, Si un Lee
+Maintainer: Jiyoung Park <wldyddl5510@tamu.edu>
+Description: Kmeans function for given centroids(M) returns length n vectors with ith element being the cluster number of ith data. LRMulti() performs ridge regression for given X and class vector Y and returns beta and objective function values.
+License: GPL-3
+Imports: Rcpp (>= 1.0.5)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.1.2
+Encoding: UTF-8

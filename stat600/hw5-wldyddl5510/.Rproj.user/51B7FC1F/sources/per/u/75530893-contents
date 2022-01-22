@@ -1,0 +1,21 @@
+# Header for Rcpp and RcppArmadillo
+library(Rcpp)
+library(RcppArmadillo)
+
+# Source your C++ funcitons
+sourceCpp("LassoInC.cpp")
+
+# Source your LASSO functions from HW4 (make sure to move the corresponding .R file in the current project folder)
+source("LassoFunctions.R")
+
+set.seed(1)
+Xtilde1 = matrix(rnorm(500), 10, 10)
+Ytilde1 = rnorm(500, 10)
+stan = standardizeXY(Xtilde1, Ytilde1)
+Xtilde1 = stan$Xtilde
+Ytilde1 = stan$Ytilde
+
+ans_r = fitLASSOstandardized_seq(Xtilde1, Ytilde1, lambda_seq = NULL, n_lambda = 30, eps = 0.001)
+ans_c = fitLASSOstandardized_seq_c(Xtilde1, Ytilde1, lambda_seq = ans_r$lambda_seq, eps = 0.001)
+sum((ans_r$beta_mat - ans_c)^2)
+all.equal(ans_r$beta_mat, ans_c)

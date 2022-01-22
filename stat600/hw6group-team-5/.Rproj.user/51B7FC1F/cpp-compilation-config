@@ -1,0 +1,22 @@
+{
+    "args": [
+        "-nostdinc",
+        "-IC:/RBuildTools/4.0/mingw64/include/c++/8.3.0",
+        "-IC:/RBuildTools/4.0/mingw64/include/c++/8.3.0/x86_64-w64-mingw32",
+        "-IC:/RBuildTools/4.0/mingw64/include/c++/8.3.0/backward",
+        "-IC:/RBuildTools/4.0/mingw64/lib/gcc/x86_64-w64-mingw32/8.3.0/include",
+        "-IC:/RBuildTools/4.0/mingw64/include",
+        "-IC:/RBuildTools/4.0/mingw64/lib/gcc/x86_64-w64-mingw32/8.3.0/include-fixed",
+        "-IC:/RBuildTools/4.0/mingw64/x86_64-w64-mingw32/include",
+        "-IC:/Users/wldyd/Documents/R/win-library/4.1/Rcpp/include",
+        "-IC:/Users/wldyd/Documents/R/win-library/4.1/RcppArmadillo/include",
+        "-std=gnu++11",
+        "-IC:/PROGRA~1/R/R-41~1.1/include",
+        "-DNDEBUG",
+        "-fopenmp"
+    ],
+    "pch": "RcppArmadillo",
+    "is_cpp": true,
+    "hash": "163608272816355585881635558588",
+    "compiler": "15831801441610807778"
+}
